@@ -1,0 +1,27 @@
+name: aik0001
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.5
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - seaborn=0.13.1
+  - jupyter
+  - jupyterlab
+  - ipython
+  - ipykernel
+  - statsmodels
+  - keras
+  - pip
+  - pycaret
+  - pip:
+      - plotly
+      - notebook
+      - tensorflow
+      - keras
+      - black
+      - pycaret
